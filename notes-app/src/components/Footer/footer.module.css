@@ -1,0 +1,31 @@
+footer{
+    background-color: #212529;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    color: #6c757d;
+    margin-right: 4px;
+}
+
+.name{
+    color: #fff;
+}
+
+.icon{
+    color: #6c757d;
+    margin-left: 10px;
+    font-size: 30px;
+    transition: all ease 300ms;
+}
+
+.icon:hover{
+    color: #fff;
+    transform: scale(1.2);
+}
